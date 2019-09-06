@@ -1,4 +1,4 @@
-FROM node:9
+FROM node:10
 RUN yarn global add elm --no-progress
 RUN yarn global add create-elm-app --no-progress
 RUN git clone https://github.com/obmarg/libsysconfcpus.git;
